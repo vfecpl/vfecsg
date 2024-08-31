@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VF Engineering and Consulting Private Limited</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="VF Engineering Logo" id="logo">
+        <h1>VF Engineering and Consulting Private Limited</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#credentials">Credentials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#careers">Careers</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>VF Engineering and Consulting Private Limited is a leading firm specializing in engineering and consulting services. We provide innovative solutions tailored to meet the needs of our clients, ensuring efficiency and excellence in all our projects.</p>
+        </section>
+
+        <section id="services">
+            <h2>What We Do</h2>
+            <ul>
+                <li>Engineering Consultations</li>
+                <li>Project Management</li>
+                <li>Design and Development</li>
+                <li>Technical Advisory</li>
+            </ul>
+        </section>
+
+        <section id="credentials">
+            <h2>Credentials</h2>
+            <p>Registered Firm with BCA (CR01), BizSAFE Level 3</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 1 Irving Place, #08-06 The Commerze@Irving, Singapore 369546</p>
+            <p>Email: <a href="mailto:info@vfengineering.com">info@vfengineering.com</a></p>
+            <p>Phone: +65 1234 5678</p>
+        </section>
+
+        <section id="careers">
+            <h2>Careers</h2>
+            <p>We are always looking for talented individuals to join our team. Please submit your resume or CV using the form below.</p>
+            <form id="resume-form" method="post" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="resume">Upload Resume/CV:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 VF Engineering and Consulting Private Limited</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
